@@ -16,5 +16,5 @@ export type CartItemType = {
   export type ActionTypes = {
     addToCart:(item:CartItemType)=> void;
     removeFromCart:(item:CartItemType)=> void;
-    clearFromCart:(item:CartItemType)=> void;
+    clearFromCart:()=> void;
   }
